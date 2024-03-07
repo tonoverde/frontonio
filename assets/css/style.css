@@ -1,0 +1,61 @@
+body {
+  background: rgb(190, 160, 200);
+  }
+
+.container {
+  padding-top: 30px;
+} 
+  
+h1 {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 300;
+}
+  
+img {
+  max-width: 40%;
+  padding: 20px;
+  display: block;
+  border-radius: 100%;
+  margin: 0 auto;
+  opacity: 50%;
+}
+
+form {
+  padding: 30px;
+}
+  
+.btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  background-color: rgb(130, 60, 140);
+  padding: 20px 80px;
+  margin: 0 auto;
+  border-radius: 20px;
+  border-color: rgb(125, 45, 160);
+}
+  
+.btn a {
+    color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.btn:hover {
+  box-shadow: 0 4px rgb(45, 30, 50);
+  top: 2px; 
+}
+
+.btn:active {
+  box-shadow: none;
+  top: 6px; 
+} 
